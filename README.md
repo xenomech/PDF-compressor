@@ -20,3 +20,5 @@ copy the pdf to be compressed to inputfile directory and make sure that there is
 open terminal in the root directory and run " python main.py "
 
 the compressed file will be saved to outputfile directory
+
+For windows switch branch
