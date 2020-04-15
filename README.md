@@ -1,11 +1,11 @@
-## PDF COMPRESSOR
+# PDF COMPRESSOR
 
 In the project directory, you can run:
 
 ### `python main.py`
 
 
-# prerequisites:
+## prerequisites:
 
 
 install ghostscript :
@@ -13,7 +13,7 @@ install ghostscript :
 ### `sudo apt-get install ghostscript`
 
 
-# Basic usage :
+## Basic usage :
 
 copy the pdf to be compressed to inputfile directory and make sure that there is no other files in it .
 
