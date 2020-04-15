@@ -4,14 +4,16 @@ In the project directory, you can run:
 
 ### `python main.py`
 
-prerequisites:
 
-        install ghostscript :
+# prerequisites:
+
+
+install ghostscript :
 
 ### `sudo apt-get install ghostscript`
 
 
-Basic usage :
+# Basic usage :
 
 copy the pdf to be compressed to inputfile directory and make sure that there is no other files in it .
 
