@@ -34,5 +34,5 @@ if __name__ == "__main__":
                 label=os.path.basename(root).replace(' ','-').lower()
                 print(label, path)
                 outputfile=os.path.join(outputdir,file)
-    compress(path,outputfile,0)
+    compress(path,outputfile,4)
 
