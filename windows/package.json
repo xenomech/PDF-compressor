@@ -1,0 +1,14 @@
+{
+  "name": "compressor",
+  "version": "1.0.0",
+  "description": "pdf compressor",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Xenomech",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^8.2.2"
+  }
+}
