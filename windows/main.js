@@ -19,9 +19,15 @@ app.on('ready',function(){
     // load the html file to ble displayed
 
     mainWindow.loadURL(url.format({
-        pathname:
-        protocol :
-        slashes :
-    }))
+        pathname : path.join(__dirname,'/src/main.html'),
+        protocol : 'file' ,
+        slashes : true
+    }));
+
+    // ok , so what this basically does is that it opens html in the created window (basically opens it as file://dirname/src/main.html) 
+    // basic layout done
+
+
+
 });
 
