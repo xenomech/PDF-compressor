@@ -6,6 +6,8 @@ const path = require("path");
 
 const {app,BrowserWindow} = electron;
 
+var ipc = require('electron').ipcMain;
+
 let mainWindow;
 
 // ok, so now listen for the app to be 
