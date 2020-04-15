@@ -17,5 +17,11 @@ app.on('ready',function(){
     mainWindow = new BrowserWindow({});
 
     // load the html file to ble displayed
+
+    mainWindow.loadURL(url.format({
+        pathname:
+        protocol :
+        slashes :
+    }))
 });
 
