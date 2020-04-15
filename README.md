@@ -4,9 +4,9 @@ In the project directory, you can run:
 
 ### `python main.py`
 
-prerequisites
+prerequisites:
 
-install ghostscript :
+        install ghostscript :
 
 ### `sudo apt-get install ghostscript`
 
