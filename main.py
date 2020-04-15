@@ -2,7 +2,6 @@ import os
 import subprocess
 import os
 import sys
-
 def compress(input_file_path, output_file_path, optionpicker="0"):
     initial_size = os.path.getsize(input_file_path)
     gsoptions = {
@@ -13,7 +12,7 @@ def compress(input_file_path, output_file_path, optionpicker="0"):
         4: '/screen'
     }
     subprocess.call(['gs', '-sDEVICE=pdfwrite', '-dCompatibilityLevel=1.4',
-                    '-dPDFSETTINGS={}'.format(gsoptions[power]),
+                    '-dPDFSETTINGS={}'.format(gsoptions[optionpicker]),
                     '-dNOPAUSE', '-dQUIET', '-dBATCH',
                     '-sOutputFile={}'.format(output_file_path),
                      input_file_path])
@@ -35,5 +34,5 @@ if __name__ == "__main__":
                 label=os.path.basename(root).replace(' ','-').lower()
                 print(label, path)
                 outputfile=os.path.join(outputdir,file)
-    compress(path,outputfile,4)
+    compress(path,outputfile,0)
 
